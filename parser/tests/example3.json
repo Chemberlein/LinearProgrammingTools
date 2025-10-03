@@ -1,0 +1,12 @@
+{
+	"numberOfVariables": 2,
+	"numberOfConstraints": 2,
+	"objectiveFunction":{
+		"objective": "minimize",
+		"equasion": "2*x + 3*y"
+	},
+	"constraints":[
+		"x + y >= 10",
+		"2*x + y <= 20"
+	]
+}

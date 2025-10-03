@@ -1,0 +1,13 @@
+{
+	"numberOfVariables": 3,
+	"numberOfConstraints": 3,
+	"objectiveFunction":{
+		"objective": "maximize",
+		"equasion": "8*x1 + 5*x2 + 7*x3"
+	},
+	"constraints":[
+		"2*x1 + 3*x2 <= 10",
+		"x1 + 2*x2 + 5*x3 <= 60",
+		"5*x2 + 3*x3 <= 40"
+	]
+}

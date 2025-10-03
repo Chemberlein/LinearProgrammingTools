@@ -1,0 +1,13 @@
+{
+	"numberOfVariables": 2,
+	"numberOfConstraints": 3,
+	"objectiveFunction":{
+		"objective": "maximize",
+		"equasion": "3*x + 5*y"
+	},
+	"constraints":[
+		"x <= 4",
+		"2*y <= 12",
+		"3*x + 2*y <= 18"
+	]
+}

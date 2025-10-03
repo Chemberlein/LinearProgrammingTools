@@ -1,0 +1,13 @@
+{
+	"numberOfVariables": 3,
+	"numberOfConstraints": 3,
+	"objectiveFunction":{
+		"objective": "minimize",
+		"equasion": "4*x - 5*y + 3*z"
+	},
+	"constraints":[
+		"5*y < 200",
+		"4*y + 3*z < 430",
+		"4*y + 3*z + 12*x < 430"
+	]
+}
